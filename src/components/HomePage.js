@@ -37,6 +37,7 @@ class HomePage extends Component {
                         message: <h3>Logged In</h3>
                     })
                     this.props.history.push("/register")
+                    console.log(this.props);
                     token = result.data.token
                     localStorage.setItem('token',  result.data.token);
                     // console.log(this.parseJwt(token))

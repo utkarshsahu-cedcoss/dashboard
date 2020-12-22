@@ -13,6 +13,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/register" component={Register} />
+          {/* <Route exact path="/register" render={() => (<div>List of Items</div>)} /> */}
         </Switch>
       </div>
     );
